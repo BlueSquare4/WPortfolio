@@ -18,6 +18,10 @@
     </p>
   </div>
   <a href="#footer" class="btn btn-secondary">Connect With Me</a>
+
+    <a class="btn btn-primary" href="https://drive.google.com/file/d/1-bYS5273aFG9NhuGD5q6Gl4-g747m_6N/view?usp=sharing">RESUME <i
+            class="fas fa-file-alt"></i></a>
+
 </section>
 {% endblock %} {% block body %}
 <section id="projects" class="project-container container">
@@ -25,48 +29,44 @@
 
   <div class="content-text">
     <h2>Special Skills</h2>
-    <div class="container">
-      <table style="text-align: center">
-        <tr>
-          <td style="padding: 20px">
-            <div class="textcard" style="padding: 20px">
-              <h2><i class="fas fa-download"></i></h2>
-              <h4>Data Scrapping</h4>
-            </div>
-          </td>
-          <td style="padding: 20px">
-            <div class="textcard" style="padding: 20px">
-              <h2><i class="fas fa-database"></i></h2>
-              <h4>Database Handling</h4>
-            </div>
-          </td>
-          <td style="padding: 20px">
-            <div class="textcard" style="padding: 20px">
-              <h2><i class="fas fa-star"></i></h2>
-              <h4>Management skills</h4>
-            </div>
-          </td>
-
-          <td style="padding: 20px">
-            <div class="textcard" style="padding: 20px">
-              <h2><i class="fas fa-cloud"></i></h2>
-              <h4>Cloud Engineering</h4>
-            </div>
-          </td>
-          <td style="padding: 20px">
-            <div class="textcard" style="padding: 20px">
-              <h2><i class="fab fa-linux"></i></h2>
-              <h4>Linux Systems</h4>
-            </div>
-          </td>
-        </tr>
-      </table>
+    <div class="row">
+      <div class="col-md-2" style="padding: 20px">
+        <div class="textcard">
+          <h2><i class="fas fa-download"></i></h2>
+          <h4>Data Scrapping</h4>
+        </div>
+      </div>
+      <div class="col-md-2" style="padding: 20px">
+        <div class="textcard">
+          <h2><i class="fas fa-database"></i></h2>
+          <h4>Database Handling</h4>
+        </div>
+      </div>
+      <div class="col-md-3" style="padding: 20px">
+        <div class="textcard">
+          <h2><i class="fas fa-star"></i></h2>
+          <h4>Management skills</h4>
+        </div>
+      </div>
+      <div class="col-md-3" style="padding: 20px">
+        <div class="textcard">
+          <h2><i class="fas fa-cloud"></i></h2>
+          <h4>Cloud Engineering</h4>
+        </div>
+      </div>
+      <div class="col-md-2" style="padding: 20px">
+        <div class="textcard">
+          <h2><i class="fab fa-linux"></i></h2>
+          <h4>Linux Systems</h4>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
+
 <!-- Projects -->
-<section id="projects" class="mb-5 project-container container">
+<section id="projects" class="mb-5 project-container container center">
   <div class="division mb-5"></div>
 
   <div class="content-text mb-5">
@@ -74,51 +74,49 @@
     <p>Check out some of my projects</p>
   </div>
 
-  <div class="container">
-    <div class="textcard">
-      <table>
-        <tr>
-          <td>
-            <img
-              src="{{ url_for('static', filename='img/snoopchat.png') }}"
-              alt="Live chatting web-app"
-              style="width: auto; max-width: 100%; height:300px"
-            />
-          </td>
-          <td>
-            <div class="container">
-              <h3>Live chatting web-app</h3>
-              <p style="text-align: justify">
-                This Live Messaging Web Application offers real-time
-                communication between users, enabling instant message exchanges.
-                Our messaging platform offers a multitude of standout features
-                aimed at enriching user experience. From real-time messaging and
-                group chat capabilities to comprehensive message history
-                tracking, notifications, and seamless responsiveness across
-                devices, we've got you covered. Powered by Flask, Socket.io, and
-                Firebase db technologies, this web application ensures not only
-                secure user authentication but also scalability and enhanced
-                collaboration. With a simple sign-up process and an intuitive
-                interface, users can effortlessly dive into engaging
-                conversations and collaborative endeavors.
-              </p>
-              <a
-                href="https://snoopchat.onrender.com/"
-                class="btn btn-secondary"
-                >Webiste<i class="fas fa-globe"></i
-              ></a>
-              <a
-                href="https://github.com/BlueSquare4/Flaskchat/tree/master"
-                class="btn btn-secondary"
-                >Github Repo<i class="fab fa-github"></i
-              ></a>
-
-            </div>
-          </td>
-        </tr>
-      </table>
+  <div class="row">
+    <div class="col-md-9">
+      <div class="textcard">
+        <img
+          src="{{ url_for('static', filename='img/snoopchat.png') }}"
+          alt="Live chatting web-app"
+          class ="mx-4"
+          style="width: auto; max-width: 100%; height:300px"
+        />
+        <div class="container">
+          <h3>Live chatting web-app</h3>
+          <p style="text-align: justify">
+            This Live Messaging Web Application offers real-time communication
+            between users, enabling instant message exchanges. Our messaging
+            platform offers a multitude of standout features aimed at enriching
+            user experience. From real-time messaging and group chat capabilities
+            to comprehensive message history tracking, notifications, and seamless
+            responsiveness across devices, we've got you covered. Powered by
+            Flask, Socket.io, and Firebase db technologies, this web application
+            ensures not only secure user authentication but also scalability and
+            enhanced collaboration. With a simple sign-up process and an intuitive
+            interface, users can effortlessly dive into engaging conversations and
+            collaborative endeavors.
+          </p>
+          <a
+            href="https://snoopchat.onrender.com/"
+            class="btn btn-secondary"
+            >Website <i class="fas fa-globe"></i
+          ></a>
+          <a
+            href="https://github.com/BlueSquare4/Flaskchat/tree/master"
+            class="btn btn-secondary"
+            >Github Repo <i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
     </div>
   </div>
+
+  <div class="col-md-6">
+    <!-- Add more projects here -->
+  </div>
+
   <a href="{{url_for('projects_page')}}" class="btn btn-secondary">See More <i class="fas fa-arrow-right"></i></a>
 
 </section>
