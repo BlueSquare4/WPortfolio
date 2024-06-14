@@ -32,4 +32,4 @@ Light and Dark Theme Personal Portfolio Website written using Flask Framework in
 1. Clone the repository:
 
 ```bash
-git clone --depth=1 https://github.com/dmdhrumilmistry/Flask-Portfolio
+git clone --depth=1 https://github.com/your_user_name/Flask-Portfolio
